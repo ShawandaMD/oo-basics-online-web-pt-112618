@@ -18,6 +18,9 @@ class Book
   attr_reader :page_count
   attr_writer :page_count
   
+  attr_reader :genre 
+  attr_writer :genre
+  
   
   
   
