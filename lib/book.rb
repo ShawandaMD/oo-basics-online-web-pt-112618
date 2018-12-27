@@ -22,6 +22,8 @@ class Book
   attr_writer :genre
   
   def turn_page
+    
+  end  
   
   
   
