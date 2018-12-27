@@ -26,8 +26,6 @@ class Book
   end  
   
   
-  
-  
 end
 
 
