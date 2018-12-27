@@ -7,7 +7,7 @@ class Book
     @title
   end
   
-  attr_accessors :author, :page_count, :genre
+  attr_accessor :author, :page_count, :genre
  
   
   def turn_page
