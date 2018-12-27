@@ -7,14 +7,8 @@ class Book
     @title
   end
   
-  attr_reader :author
+  attr_accessors :author
   attr_writer :author
- #def author=(author) 
-  #  @author = author
-  #end
-  #def author
-  #  @author
-  #end
   attr_reader :page_count
   attr_writer :page_count
   
