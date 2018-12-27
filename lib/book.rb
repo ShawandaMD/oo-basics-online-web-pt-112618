@@ -12,13 +12,11 @@ class Book
  #def author=(author) 
   #  @author = author
   #end
-  
   #def author
   #  @author
   #end
- # def 
-    
-  #end 
+  attr_reader :page_count
+  attr_writer :page_count
   
   
   
