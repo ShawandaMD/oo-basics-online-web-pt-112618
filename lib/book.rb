@@ -7,13 +7,15 @@ class Book
     @title
   end
   
-  def author=(author) 
-    @author = author
-  end
+  attr_reader
+  attr_writer
+ #def author=(author) 
+  #  @author = author
+  #end
   
-  def author
-    @author
-  end
+  #def author
+  #  @author
+  #end
  # def 
     
   #end 
