@@ -7,7 +7,8 @@ class Shoe
   end  
   
   def cobble
-  
+   if condition == "old"
+    puts "" 
   end
   
 end  
